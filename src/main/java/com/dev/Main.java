@@ -36,7 +36,7 @@ package com.dev;
             System.out.println();  // Перехід на новий рядок
 
             // Завдання 3: Замінити від'ємні числа на []
-            String inputString = "String 12 with numbers -1, 2, 5, -4, 12. Replace all negative";
+            String inputString = "String 12 with numbers, -1, 2, 5, -4, 12. Replace all negative";
             String[] parts = inputString.split(", ");
 
             StringBuilder resultString = new StringBuilder();
